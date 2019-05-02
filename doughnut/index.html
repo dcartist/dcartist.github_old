@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Doughnuts</title>
     <style>
-    body {
-      margin: 0px;
-      padding: 0px;
-    }
-    canvas { position:fixed; top:0; left:0; z-index:1; }
-    #contenu { position:relative; z-index:2; color: white; font-size: 26px; font-weight:bold; }
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        
+        #contenu {
+            position: relative;
+            z-index: 2;
+            color: white;
+            font-size: 26px;
+            font-weight: bold;
+        }
     </style>
     <link href="index.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
+</head>
+
+<body>
+
+    <div id="contenu">
+        <span style="padding-left: 15px; padding-top:25px;">Right Click to change background color</span>
+    </div>
     <script src='https://p5js.org/assets/js/p5.min.js'></script>
     <script src='https://p5js.org/assets/js/p5.dom.min.js'></script>
     <script src='https://p5js.org/assets/js/p5.sound.min.js'></script>
     <script src="index.js"></script>
-    <div id="contenu">
-      <span style="padding-left: 15px; padding-top:25px;">Right Click to change background color</span>
-    </div>
-  </body>
+</body>
+
 </html>
