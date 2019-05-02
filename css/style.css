@@ -39,3 +39,20 @@ main {
     height: 30px;
     font-size: 25px;
 }
+
+.midleft {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    padding-left: 15px;
+    overflow: auto;
+    text-align: center;
+}
+
+.midright {
+    background-color: rgb(189, 189, 189);
+}
+
+.midleft p {
+    margin: 0;
+    padding: 0;
+}
