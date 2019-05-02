@@ -14,7 +14,7 @@ var back = document.querySelector("body")
 var thecode = []
 var truth = 0
 var wrong = 0
-var thetext = document.querySelector("span")
+var thetext = document.querySelector('#konami')
 var bigtext = document.querySelector("div")
 
 function konami() {
@@ -69,7 +69,7 @@ function init() {
                 window.location = "http://dcartist.github.io/doughnut"
                 cleanslate()
             } else {
-                // alert('wrong code')
+                alert('wrong code')
                 cleanslate()
             }
 
