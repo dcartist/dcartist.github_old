@@ -34,10 +34,24 @@ main {
     width: 100%;
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
-    letter-spacing: .3em;
-    text-shadow: 5px 3px 5px black;
     height: 30px;
-    font-size: 25px;
+    font-size: 20px;
+    line-height: .8;
+    letter-spacing: .3em;
+    text-shadow: 3px 3px 3px rgb(27, 27, 27);
+}
+
+
+/* .navbar:not(span) {
+    letter-spacing: .3em;
+    text-shadow: 3px 3px 3px rgb(27, 27, 27);
+} */
+
+span {
+    font-size: 12px;
+    letter-spacing: .3em;
+    text-shadow: 0 0 0 rgb(27, 27, 27);
+    font-family: 'Heebo', sans-serif;
 }
 
 .midleft {
@@ -46,13 +60,27 @@ main {
     padding-left: 15px;
     overflow: auto;
     text-align: center;
+    display: flex;
+    align-items: center;
+    /* justify-items: center; */
+    justify-content: center;
 }
 
 .midright {
     background-color: rgb(189, 189, 189);
-}
-
-.midleft p {
     margin: 0;
     padding: 0;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.midright h1 {
+    font-size: 20px;
+}
+
+.midright img {
+    border-radius: 50%;
+    height: 200px;
+    margin: auto;
 }
