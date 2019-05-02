@@ -90,3 +90,16 @@ span a {
     height: 200px;
     margin: auto;
 }
+
+@media (max-width: 576px) {
+    .navbar span {
+        font-size: 12px;
+        letter-spacing: 0;
+        text-shadow: 0 0 0 rgb(27, 27, 27);
+        font-family: 'verdana', sans-serif;
+        font-weight: 500;
+    }
+    .topsection img {
+        width: 100%
+    }
+}

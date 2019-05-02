@@ -90,3 +90,21 @@ p span {
     letter-spacing: 4px;
     margin: 0;
 }
+
+@media (max-width: 576px) {
+    .navbar span {
+        font-size: 12px;
+        letter-spacing: 0;
+        text-shadow: 0 0 0 rgb(27, 27, 27);
+        font-family: 'verdana', sans-serif;
+        font-weight: 500;
+    }
+    section p {
+        font-size: 14px;
+        font-family: 'verdana', sans-serif;
+    }
+    #konami {
+        font-size: 12px;
+        font-family: 'verdana', sans-serif;
+    }
+}
