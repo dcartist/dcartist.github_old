@@ -37,12 +37,17 @@ body {
     background-repeat: no-repeat;
     background-color: red;
     color: white;
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    /* flex-direction: row; */
+    /* justify-content: baseline; */
 }
 
 .two img {
     border-radius: 50%;
     height: 200px;
     margin: auto;
+    border: 3px solid black;
 }
 
 
@@ -67,4 +72,25 @@ body {
 .navbar a {
     text-decoration: none;
     color: white;
+}
+
+nav {
+    /* text-align: center; */
+    background-color: black;
+    padding: 20px 0 20px 10px;
+}
+
+sup {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+/* from css tricks  */
+
+.shadow {
+    -moz-box-shadow: inset 0 0 20px #000000;
+    -webkit-box-shadow: inset 0 0 20px #000000;
+    box-shadow: inset 0 0 20px #000000;
 }

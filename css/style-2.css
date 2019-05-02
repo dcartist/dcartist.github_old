@@ -1,11 +1,14 @@
 body {
-    background-color: black;
-    color: white;
+    /* background-color: rgb(43, 43, 43); */
+    background-color: rgb(168, 0, 0);
+    /* background-image: linear-gradient(rgb(61, 1, 1), red) color: white; */
     display: flex;
+    color: white;
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header,
@@ -24,6 +27,7 @@ h1 {
     font-family: 'Bangers', cursive;
     font-size: 50px;
     letter-spacing: 4px;
+    margin: 0;
 }
 
 main {
@@ -75,4 +79,11 @@ span {
 p span {
     letter-spacing: 0;
     word-spacing: 2px;
+}
+
+.banged {
+    font-family: 'Bangers', cursive;
+    font-size: 22px;
+    letter-spacing: 4px;
+    margin: 0;
 }
