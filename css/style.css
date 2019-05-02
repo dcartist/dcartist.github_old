@@ -52,6 +52,12 @@ span {
     letter-spacing: .3em;
     text-shadow: 0 0 0 rgb(27, 27, 27);
     font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+}
+
+span a {
+    text-decoration: none;
+    color: white;
 }
 
 .midleft {
