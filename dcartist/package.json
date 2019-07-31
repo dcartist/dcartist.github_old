@@ -2,7 +2,7 @@
   "name": "dcartist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dcartist.github.io",
+  "homepage": "https://dcartist.github.io/",
   "dependencies": {
     "gh-pages": "^2.1.0",
     "react": "^16.8.6",
@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build --docs",
+    "pre-deploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
